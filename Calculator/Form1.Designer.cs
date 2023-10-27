@@ -99,6 +99,7 @@ namespace Calculator
             this.btTru.TabIndex = 6;
             this.btTru.Text = "Trừ";
             this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.Click += new System.EventHandler(this.btTru_Click);
             // 
             // btCong
             // 
@@ -109,6 +110,7 @@ namespace Calculator
             this.btCong.TabIndex = 7;
             this.btCong.Text = "Cộng";
             this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.btCong_Click);
             // 
             // Form1
             // 
