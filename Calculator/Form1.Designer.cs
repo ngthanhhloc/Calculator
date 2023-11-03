@@ -35,8 +35,8 @@ namespace Calculator
             this.txtSo1 = new System.Windows.Forms.TextBox();
             this.txtSo2 = new System.Windows.Forms.TextBox();
             this.txtKetqua = new System.Windows.Forms.TextBox();
-            this.btTru = new System.Windows.Forms.Button();
             this.btCong = new System.Windows.Forms.Button();
+            this.btTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbSo1
@@ -90,21 +90,10 @@ namespace Calculator
             this.txtKetqua.Size = new System.Drawing.Size(237, 23);
             this.txtKetqua.TabIndex = 5;
             // 
-            // btTru
-            // 
-            this.btTru.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btTru.Location = new System.Drawing.Point(123, 297);
-            this.btTru.Name = "btTru";
-            this.btTru.Size = new System.Drawing.Size(136, 58);
-            this.btTru.TabIndex = 6;
-            this.btTru.Text = "Trừ";
-            this.btTru.UseVisualStyleBackColor = true;
-            this.btTru.Click += new System.EventHandler(this.btTru_Click);
-            // 
             // btCong
             // 
             this.btCong.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btCong.Location = new System.Drawing.Point(318, 297);
+            this.btCong.Location = new System.Drawing.Point(123, 308);
             this.btCong.Name = "btCong";
             this.btCong.Size = new System.Drawing.Size(135, 58);
             this.btCong.TabIndex = 7;
@@ -112,13 +101,23 @@ namespace Calculator
             this.btCong.UseVisualStyleBackColor = true;
             this.btCong.Click += new System.EventHandler(this.btCong_Click);
             // 
+            // btTru
+            // 
+            this.btTru.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btTru.Location = new System.Drawing.Point(318, 308);
+            this.btTru.Name = "btTru";
+            this.btTru.Size = new System.Drawing.Size(135, 58);
+            this.btTru.TabIndex = 8;
+            this.btTru.Text = "Trừ";
+            this.btTru.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 413);
-            this.Controls.Add(this.btCong);
+            this.ClientSize = new System.Drawing.Size(604, 469);
             this.Controls.Add(this.btTru);
+            this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtKetqua);
             this.Controls.Add(this.txtSo2);
             this.Controls.Add(this.txtSo1);
@@ -140,8 +139,8 @@ namespace Calculator
         private System.Windows.Forms.TextBox txtSo1;
         private System.Windows.Forms.TextBox txtSo2;
         private System.Windows.Forms.TextBox txtKetqua;
-        private System.Windows.Forms.Button btTru;
         private System.Windows.Forms.Button btCong;
+        private System.Windows.Forms.Button btTru;
     }
 }
 
