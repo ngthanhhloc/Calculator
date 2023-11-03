@@ -103,13 +103,15 @@ namespace Calculator
             // 
             // btTru
             // 
+            this.btTru.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btTru.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btTru.ForeColor = System.Drawing.Color.Red;
             this.btTru.Location = new System.Drawing.Point(318, 308);
             this.btTru.Name = "btTru";
             this.btTru.Size = new System.Drawing.Size(135, 58);
             this.btTru.TabIndex = 8;
             this.btTru.Text = "Trừ";
-            this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
